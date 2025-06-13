@@ -1,0 +1,13 @@
+VSCode Setup
+Tools used in the course
+Note: the setup is done in video form in the next lecture
+VSCode: https://code.visualstudio.com/
+
+With the cfn-lint extension: https://github.com/aws-cloudformation/cfn-lint-visual-studio-code
+
+Install cfn-lint here: https://github.com/aws-cloudformation/cfn-lint
+
+
+VSCode Setup (video)
+https://github.com/aws-cloudformation/cfn-lint-visual-studio-code
+
