@@ -1,0 +1,11 @@
+/********************************** Amazon Connect Interview Questions **********************************/
+
+What is amazon connect?
+What is set logging behavior block in amazon connect?
+What is queue in amazon connect?
+What is priority queue in amazon connect?
+What is routing profile in amazon connect?
+How to transfer to a flow in amazon connect? We have 2 flows A and B, and we want to transfer from flow A to B with all the parameters. How can we do this?
+What are the types of flows in amazon connect?
+
+

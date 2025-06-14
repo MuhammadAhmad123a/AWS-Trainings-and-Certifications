@@ -1,0 +1,86 @@
+ Interview Questions for DevOps
+ 
+ Dockerfile ==> a layer of files which you put a base layer and then you add functionality on it. Whent docker runs, it runs at the top
+ Cloudformation role on automating the deployments ==> automated tool designed by AWS, it's PaaS, just give the code and run the deployments
+ Monitoring tool ==> 
+    Prometeus  is used to make the logs and matrics, 
+	Granafana is used to make it as dashboard, all the logs are in dashboard, we can also make the analytics over there 
+ 
+ Matrics v Traces:
+    Matrics ==> just a scale to measure the numbers
+	Traces ==> used for investingation, where it happend and when it happend e.g. in cloud watch
+	
+ Components of trace:
+ 
+ 
+ Types of matrics
+ 
+ Terraform
+   ==> blue print to autmate the deployments
+   State in terraform: the state what we defined and what't the current state
+ 
+ What happend when you change configuration management manually instead of terraform?
+ ==> if there is a change in configuration either a terraform file can go currpot or if it distracts automatically it may want to achieve the same configuration 
+    that you achieve the same configuration that you configured in terraform
+	
+	CloudWatch is a native AWS monitoring service, while Prometheus is an open-source monitoring system, and Grafana is an open-source data visualization tool
+	
+	
+ CloudFront
+ ==> CDN network, we used it to publish the website, it's best functionality is to caching the resources all over the world
+ ==> for global CDN with low latency
+ 
+ Security aspects consiederd while building the application?
+ ==> WAF 
+ ==> for DDoS attack protection: AWS shield or AWS shield advanced 
+ ==> for traffic control: ALB, NLB, GLB, ASG etc.
+ 
+ ==> if we want to block some countries to access from website, use Route53 or CDN
+ 
+ Importance of 
+    Security Groups: gives you autherization, no every one can access every resource only authorized groups can access
+	Subnets: to mask the ip address or to give you more ip addresses under a network
+	
+ Cost optimization strategies:
+    ==> reduce no of calls by caching the data in dynamoDB or CDN 
+	==> Adopt a consumption mode (483)
+	==> Measure overall efficiency
+	==> Stop spending money on data center operations
+	==> Analyze and attribute expenditure
+	==> Use managed and application level services to reduce cost of ownership
+	
+	
+ What is serverless?
+   ==>Serverless is a new paradigm in which the developers don’t have to manage servers anymore…
+    • They just deploy code
+    • They just deploy… functions !
+    • Initially... Serverless == FaaS (Function as a Service)
+    • Serverless was pioneered by AWS Lambda but now also includes anything that’s managed: “databases, messaging, storage, etc.”
+    • Serverless does not mean there are no servers… it means you just don’t manage / provision / see them
+    • e.g Lambda, 
+	
+	
+ SLI, SLO, SLA
+   ==> SLI:
+   ==> SLO: 
+   ==> SLA: serice level agreement whenverver request is coming in there might be a certain time period we have to check it, troubleshoot it and resolve it
+   
+ VPN
+  ==> virtual private network
+  ==> If a company wants to give only access to their employees and want to deny the public access then it will be done through VPN
+ 
+ How to establish inter-connectivity between multiple VPNs?
+  ==> Using gateway: using star or any other technology 
+  
+ how to establish connection between on premises and cloud VPNs?
+ ==> using transit gateway
+ 
+ 
+	
+	
+ 
+ 
+ 
+ 
+ 
+ 
